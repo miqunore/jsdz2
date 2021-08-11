@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    width: 100vh;
+    height: 100%;
+    text-align: center;
+
+}
+
+.form input {
+    padding: 5px;
+    width: 60%;
+    
+}
+
+
+button {
+    margin-top: 10px;
+
+}
+
+#beerContainer {
+    margin-top: 20px;
+}
+

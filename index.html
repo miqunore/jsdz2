@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
-    <div class="modal-window">
+<div class="container">
 
-        <div class="modalBlock" id="modalBlocks">
-            <div>текст1</div>
-            <input type="text" id="name1">
-
-            <div>текст2</div>
-            <input type="text" id="name2">
-
-            <div>текст3</div>
-            <input type="text" id="name3">
-
-            <div>текст4</div>
-            <input type="text" id="name4">
-
-            <button id="addBtn">Добавить</button>
+    <button id="addBeer">Добавить ПИВО</button>
+    <div class="form" id="modal">
+        <div>
+            <div>Название</div>
+            <input type="text" id="beerName">
         </div>
+        <div>
+            <div>Ссылка на картинку</div>
+            <input type="text" id="beerImgSrc">
+        </div>
+        <div>
+            <div>Описание</div>
+            <input type="text" id="beerDescription">
+        </div>
+
+        <button id="addBtn">Добавить</button>
     </div>
 
+    <div id="beerContainer">
 
-    <script src="script.js"></script>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
-
 </html>
