@@ -1,0 +1,27 @@
+.modal-window {
+    position: absolute;
+    height: 500px;
+    width: 30vw;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    left: 35vw;
+    justify-content: center;
+}
+
+.modalBlock {
+    flex-direction: column;
+    width: 200px;
+   
+}
+
+.modalBlock input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.modal-window button {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+
+}
